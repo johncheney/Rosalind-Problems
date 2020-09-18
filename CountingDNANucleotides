@@ -6,3 +6,23 @@
 #initalized 4 lists
 #count then increment through each 
 #Return A T G C or whatever order it wanted. 
+
+
+
+input = " "
+counta = 0
+countg = 0
+countc = 0
+countt = 0
+
+def dnantcount()
+    for letter in input:
+        if letter == 'A':
+            counta = counta + 1
+        elif letter == 'G':
+            counta = countg + 1
+        elif letter == 'C':
+            counta = countc + 1
+        elif letter == 'T':
+            counta = countt + 1      
+    print("counta", "countg", "countc", "countt")
