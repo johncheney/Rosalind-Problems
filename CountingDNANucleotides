@@ -1,0 +1,8 @@
+#given ATGC.... string of nts 
+#provide 4 numbers each a total counted output of the nt data
+
+
+#code plan 
+#initalized 4 lists
+#count then increment through each 
+#Return A T G C or whatever order it wanted. 
