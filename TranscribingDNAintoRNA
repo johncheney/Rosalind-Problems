@@ -1,0 +1,18 @@
+
+
+
+def transcribe(n):
+    for letters in n
+    if "A" then return "A"
+    elif "C" then return "C"
+    elif "T" then return "U" 
+    elif "G" then return "G"
+   
+   
+   
+transcribe("GATGGAACTTGACTACGTAAATT")
+
+
+
+
+
