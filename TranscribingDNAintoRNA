@@ -1,18 +1,16 @@
 
 
-
 def transcribe(n):
     for letter in n:
         if letter == 'A':
-            return "A"
+            print( 'A', end = ''),
         elif letter == 'C': 
-            return "C"
+            print('C', end = ''),
         elif letter == 'T': 
-            return "U" 
+            print( 'U', end = ''),
         elif letter == 'G': 
-            return "G"
-   
-   
+            print('G', end = '')
+        
    
 transcribe("GATGGAACTTGACTACGTAAATT")
 
