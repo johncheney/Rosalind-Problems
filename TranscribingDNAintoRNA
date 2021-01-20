@@ -2,11 +2,15 @@
 
 
 def transcribe(n):
-    for letters in n
-    if "A" then return "A"
-    elif "C" then return "C"
-    elif "T" then return "U" 
-    elif "G" then return "G"
+    for letter in n:
+        if letter == 'A':
+            return "A"
+        elif letter == 'C': 
+            return "C"
+        elif letter == 'T': 
+            return "U" 
+        elif letter == 'G': 
+            return "G"
    
    
    
