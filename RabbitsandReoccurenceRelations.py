@@ -16,4 +16,4 @@ def rabbitcounter(n,k):  # Describe the fxｎ
        # print('pairs' = pairs)
 
 
-rabbitcounter(5,3)
+rabbitcounter(33,5)
