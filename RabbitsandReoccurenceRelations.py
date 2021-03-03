@@ -1,13 +1,12 @@
 
-
 def rabbitcounter(n,k):  # Describe the fxｎ
     p = 1
     o = 0 
-    for i in range(n):        # for loop to loop through 
-        pairs=o+p
-        #next_gen=
+    pairs = [1,1,]
+    for i in range(2, n+1):        # for loop to loop through 
         o = o + p*k 
-        p = o  
+        p = o - p*k
+        pairs.append(o+p)
         
         print('parents =' ,p)
         print('offspring =' ,o)
@@ -18,5 +17,3 @@ def rabbitcounter(n,k):  # Describe the fxｎ
 
 
 rabbitcounter(5,3)
-
-
