@@ -1,18 +1,18 @@
 
-def rabbitcounter(n,k, m):  # Describe the fxｎ
-    p = 1
+def rabbitcounter(n,k, m):          # Describe the fxｎ
+    p = 1                           #Initalize vars 
     o = 1 
-    pairs = [1,1,]
-    for i in range(2, n):        # for loop to loop through 
-        o = o + p*k 
-        p = o - p*k
-        pairs.append(o+p)
+    pairs = [1,1,]                  #Initalize lists 
+    for i in range(3,n):           #loop through 
+        o = o + p*k                 #parents give rise to offspring
+        p = o - p*k                 #subtract offspring from total to get parents 
+        pairs.append(o+p)           #append to a list for ease 
         
-        #print('parents =' ,p)
-    print('offspring =' ,o)
-        #print('pairs =' ,pairs)
+        print('parents =' ,p)
+        print('offspring =' ,o)
+        print('pairs =' ,pairs)
         
-        #print('  ')
+        print('  ')
        # print('pairs' = pairs)
 
 
