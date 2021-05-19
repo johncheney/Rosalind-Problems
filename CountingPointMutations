@@ -1,0 +1,6 @@
+
+fs , ss = "GAGCCTACTAACGGGAT" , "CATCGTAATGACGGCCT"
+hamming_distance = 0 
+hamming_distance = sum(a!=b for a, b in zip(fs, ss))
+print(hamming_distance)
+
